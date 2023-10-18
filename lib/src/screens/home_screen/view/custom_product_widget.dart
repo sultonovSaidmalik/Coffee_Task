@@ -77,7 +77,7 @@ class CustomProductWidget extends StatelessWidget {
               /// Product Title and Categoriy
               Center(
                 child: Padding(
-                  padding: const EdgeInsets.only(left: 10, right: 10, top: 8),
+                  padding: const EdgeInsets.only(left: 10, right: 10, top: 10),
                   child: Text(
                     product.title,
                     maxLines: 1,
@@ -111,7 +111,7 @@ class CustomProductWidget extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.only(left: 10, right: 10 ,top: 15),
+                    padding: const EdgeInsets.only(left: 10, right: 10 ,top: 5),
                     child: Text(
                       '\$ ${product.price}',
                       style: TextStyle(
