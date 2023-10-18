@@ -21,7 +21,7 @@ class GridViewWidget extends StatelessWidget {
                 gridDelegate:
                 const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
-                  childAspectRatio: 0.5,
+                  childAspectRatio: 0.55,
                 ),
                 itemCount: state.products.length,
                 itemBuilder: (context, index) {
